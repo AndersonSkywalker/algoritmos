@@ -24,7 +24,7 @@ Bubble sort é o algoritmo mais simples, mas o menos eficientes. Neste algoritmo
 ## Insertion Sort
 
 <p align="center">
-  <img src="/img/InsertioSort.jpg">
+  <img src="/img/InsertionSort.jpg">
 </p>
 
 O Insertion sort é um algoritmo simples e eficiente quando aplicado em pequenas listas. Neste algoritmo a lista é percorrida da esquerda para a direita, à medida que avança vai deixando os elementos mais à esquerda ordenados.
@@ -68,7 +68,7 @@ O Quicksort é o algoritmo mais eficiente na ordenação por comparação. Nele 
 Veja a tabela abaixo com a comparação destes algoritmos incluindo o Merge Sort e o Sehll Sort, que não foram abordados aqui.
 
 <p align="center">
-  <img src="/img/compara.jpg">
+  <img src="/img/compara.png">
 </p>
 
 ### Referências bibliográficas
