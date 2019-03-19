@@ -24,7 +24,7 @@ public class AlgoritmosDeOrdenacao {
         }
     }
 
-    //insertionSort
+    //Insertion Sort
     public static void insertionSort(int vetor[]) {
         int j;
         int key;
@@ -39,7 +39,7 @@ public class AlgoritmosDeOrdenacao {
         }
     }
 
-    //selectionSort
+    //Selection Sort
     public static void selectionSort(int[] vet) {
         for (int fixo = 0; fixo < vet.length - 1; fixo++) {
             int menor = fixo;
@@ -57,7 +57,7 @@ public class AlgoritmosDeOrdenacao {
         }
     }
 
-    //quickSort
+    //Quick Sort
     private static void quickSort(int[] vetor, int inicio, int fim) {
         if (inicio < fim) {
             int posicaoPivo = separar(vetor, inicio, fim);
@@ -66,7 +66,7 @@ public class AlgoritmosDeOrdenacao {
         }
     }
 
-    //quickSortSeparar
+    //Quick Sort Separar
     private static int separar(int[] vetor, int inicio, int fim) {
         int pivo = vetor[inicio];
         int i = inicio + 1, f = fim;
@@ -90,9 +90,9 @@ public class AlgoritmosDeOrdenacao {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        //Leitura do tamno do vetor
+        //Leitura do tamanho do vetor
         int tamanho = sc.nextInt();
-        //vetor recebendo o tamanho
+        //Vetor recebendo o tamanho
         int[] vet = new int[tamanho];
         //Leitura dos dados
         for (int i = 0; i < vet.length; i++) {
@@ -100,12 +100,11 @@ public class AlgoritmosDeOrdenacao {
         }
         //Chamando método bolha
         //bubbleSort(vet);
-
-        //Chamada método insertionSort
+        //Chamada método Insertion Sort
         //insertionSort(vet);
-        //Chamada método quickSort
+        //Chamada método Quick Sort
         //quickSort(vet, 0, (vet.length - 1));
-        //Chamada método selectionSort
+        //Chamada método Selection Sort
         //selectionSort(vet);
         //Exibição no console
         for (int i = 0; i < vet.length; i++) {
